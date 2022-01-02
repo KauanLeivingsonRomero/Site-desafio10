@@ -71,6 +71,13 @@ main {
   padding: 10px 15px 10px 15px;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.411);
   align-self: center;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+main > img {
+  width: 100%;
 }
 
 .theme {
