@@ -97,12 +97,25 @@ main {
   border-bottom-right-radius: 10px;
 }
 
+main p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 20px;
+  font-size: 18px;
+  margin: 15px 0px;
+  text-align: justify;
+  line-height: 29px;
+}
+
+main strong {
+  color: var(--cor5);
+}
+
 main > img {
   width: 100%;
 }
 
 main img.pequena {
-  width: 50%;
+  max-width: 350px;
   display: block;
   margin: auto;
 }
@@ -122,11 +135,7 @@ main img.pequena {
   padding-left: 20px;
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  text-indent: 20px;
-  font-size: 18px;
-}
+
 
 .link {
   text-decoration: none;
