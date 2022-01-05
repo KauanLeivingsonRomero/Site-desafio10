@@ -55,7 +55,7 @@ header > p {
 }
 
 #maintitle {
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   color: white;
   font-size: 30px;
@@ -136,7 +136,8 @@ main img.pequena {
 
 .theme {
   font-family: idrof;
-  font-size: 40px;
+  font-size: 35px;
+  font-weight: normal;
   color: green;
   margin: 0px 10px 15px 10px;
 }
@@ -166,18 +167,20 @@ main img.pequena {
   
 }
 
-.video {
-  background-color: green;
-  margin: 0px;
-  display: flex;
-  padding: 15px 15px 15px 15px;
-  max-width: 99%;
-  height: 400px;
+div.video {
+  background-color: var(--cor5);
+  margin: 0px -10px 23px -9px;
+  padding: 20px;
+  padding-bottom: 55%;
+  position: relative;
 }
 
-iframe {
-  width: 100%;
-  height: 100%;
+div.video iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
 }
 
 
