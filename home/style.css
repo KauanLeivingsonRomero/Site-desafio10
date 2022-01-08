@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: idrof;
-  src: url(/fonts/idroid.otf);
+  src: url("fonts/idrof.otf");
 }
 
 
@@ -135,7 +135,7 @@ main img.pequena {
 }
 
 .theme {
-  font-family: idrof;
+  font-family: "idrof";
   font-size: 35px;
   font-weight: normal;
   color: green;
